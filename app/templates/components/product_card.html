@@ -1,0 +1,6 @@
+<article class="product-card" data-product="{{ product.id }}">
+  <div class="product-art art-{{ product.category_id }}"><span role="img" aria-label="{{ product.name }}">{{ product.emoji }}</span>{% if product.featured %}<span class="badge">Выбор прокрастинатора</span>{% endif %}<span class="art-number" aria-hidden="true">DD / {{ '%02d'|format(card_number) }}</span></div>
+  <div class="product-body"><p class="product-category">{% for c in categories if c.id == product.category_id %}{{ c.name }}{% endfor %}</p><h3>{{ product.name }}</h3><p class="description">{{ product.description }}</p><p class="meme">{{ product.meme }}</p>
+    <div class="product-bottom"><span class="price">{{ product.price_kopeks|format_rub }}</span><button type="button" class="add-button" data-add="{{ product.id }}" aria-label="В корзину: {{ product.name }}">В корзину <span aria-hidden="true">+</span></button></div>
+  </div>
+</article>

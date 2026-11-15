@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "categories": [
+    {
+      "id": "procrastination",
+      "name": "Прокрастинация"
+    },
+    {
+      "id": "invisible",
+      "name": "Невидимые вещи"
+    },
+    {
+      "id": "motivation",
+      "name": "Мотивация"
+    },
+    {
+      "id": "chaos",
+      "name": "Хаос и мультивселенная"
+    },
+    {
+      "id": "office",
+      "name": "Рабочие ритуалы"
+    }
+  ],
+  "products": [
+    {
+      "id": "invisible-socks",
+      "name": "Невидимые носки",
+      "category_id": "invisible",
+      "price_kopeks": 49900,
+      "description": "Для выходов, которые так и не состоялись. Идеально сидят на воображении.",
+      "meme": "Если их не видно, значит, они уже в стирке.",
+      "emoji": "🧦",
+      "featured": true
+    },
+    {
+      "id": "empty-box",
+      "name": "Коробка с обещаниями",
+      "category_id": "invisible",
+      "price_kopeks": 29900,
+      "description": "Все ваши «обязательно сделаю» в одной просторной коробке.",
+      "meme": "Содержимое появится в следующем обновлении.",
+      "emoji": "📦",
+      "featured": false
+    },
+    {
+      "id": "transparent-umbrella",
+      "name": "Зонт от несуществующего дождя",
+      "category_id": "invisible",
+      "price_kopeks": 79900,
+      "description": "Защитит от осадков, которые вы придумали, чтобы остаться дома.",
+      "meme": "Прогноз: стопроцентная вероятность дивана.",
+      "emoji": "☂️",
+      "featured": false
+    },
+    {
+      "id": "tomorrow-planner",
+      "name": "Планер «Начну завтра»",
+      "category_id": "procrastination",
+      "price_kopeks": 89900,
+      "description": "365 чистых страниц для одного очень продуктивного завтра.",
+      "meme": "Сегодня — репетиция. Завтра — премьера.",
+      "emoji": "📒",
+      "featured": true
+    },
+    {
+      "id": "five-more-minutes",
+      "name": "Сертификат «Ещё пять минут»",
+      "category_id": "procrastination",
+      "price_kopeks": 19900,
+      "description": "Официальное разрешение договориться с будильником.",
+      "meme": "Срок действия автоматически продлевается.",
+      "emoji": "⏰",
+      "featured": false
+    },
+    {
+      "id": "deadline-extender",
+      "name": "Продлитель дедлайна",
+      "category_id": "procrastination",
+      "price_kopeks": 149900,
+      "description": "Раздвигает границы времени силой уверенного «почти готово».",
+      "meme": "Дедлайн не горит. Это уютный камин.",
+      "emoji": "🪄",
+      "featured": false
+    },
+    {
+      "id": "motivation-battery",
+      "name": "Батарейка мотивации 1%",
+      "category_id": "motivation",
+      "price_kopeks": 59900,
+      "description": "Заряда хватит, чтобы открыть документ и полюбоваться заголовком.",
+      "meme": "Энергосберегающий режим — стиль жизни.",
+      "emoji": "🔋",
+      "featured": true
+    },
+    {
+      "id": "success-sticker",
+      "name": "Наклейка «Почти сделал»",
+      "category_id": "motivation",
+      "price_kopeks": 14900,
+      "description": "Маленькая награда за большие намерения. Клеится даже на планы.",
+      "meme": "Почти — это уже направление.",
+      "emoji": "⭐",
+      "featured": false
+    },
+    {
+      "id": "inspiration-air",
+      "name": "Банка вдохновляющего воздуха",
+      "category_id": "motivation",
+      "price_kopeks": 69900,
+      "description": "Свежая идея в герметичной упаковке. Открывать по настроению.",
+      "meme": "Вдохните. Выдохните. Отложите.",
+      "emoji": "🫙",
+      "featured": false
+    },
+    {
+      "id": "multiverse-map",
+      "name": "Карта потерянных вселенных",
+      "category_id": "chaos",
+      "price_kopeks": 109900,
+      "description": "Поможет найти вселенную, в которой вы всё успели.",
+      "meme": "Вы здесь. Или где-то примерно здесь.",
+      "emoji": "🗺️",
+      "featured": false
+    },
+    {
+      "id": "quantum-excuse",
+      "name": "Квантовая отговорка",
+      "category_id": "chaos",
+      "price_kopeks": 129900,
+      "description": "Одновременно сделал и не сделал, пока никто не спросил.",
+      "meme": "Не открывайте чат: разрушите суперпозицию.",
+      "emoji": "🌀",
+      "featured": true
+    },
+    {
+      "id": "chaos-organizer",
+      "name": "Органайзер организованного хаоса",
+      "category_id": "chaos",
+      "price_kopeks": 99900,
+      "description": "У каждого беспорядка теперь есть собственное отделение.",
+      "meme": "Всё на своих случайных местах.",
+      "emoji": "🗃️",
+      "featured": false
+    },
+    {
+      "id": "meeting-escape",
+      "name": "Пропуск с совещания",
+      "category_id": "office",
+      "price_kopeks": 39900,
+      "description": "Ваш воображаемый выход из встречи, которая могла быть сообщением.",
+      "meme": "Коллеги, у меня следующий воображаемый звонок.",
+      "emoji": "🎫",
+      "featured": false
+    },
+    {
+      "id": "coffee-placeholder",
+      "name": "Заглушка для кофе",
+      "category_id": "office",
+      "price_kopeks": 24900,
+      "description": "Создаёт убедительное ощущение начала рабочего дня.",
+      "meme": "Кофе ещё нет, а перерыв уже есть.",
+      "emoji": "☕",
+      "featured": false
+    },
+    {
+      "id": "focus-switch",
+      "name": "Переключатель концентрации (муляж)",
+      "category_id": "office",
+      "price_kopeks": 119900,
+      "description": "Щёлкает приятно. На продуктивность влияет исключительно эстетически.",
+      "meme": "Вкл. Выкл. Котики.",
+      "emoji": "🎛️",
+      "featured": false
+    }
+  ]
+}

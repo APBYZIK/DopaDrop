@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "scenarios": [
+    {
+      "id": "default-v1",
+      "version": 1,
+      "stages": [
+        {
+          "id": "accepted",
+          "title": "Заказ принят. Мы морально готовимся.",
+          "description": "Система делает вид, что очень занята.",
+          "emoji": "✅",
+          "start_after_seconds": 0
+        },
+        {
+          "id": "packing",
+          "title": "Упаковываем в воображаемую коробку.",
+          "description": "Главное — не забыть положить туда ничего.",
+          "emoji": "📦",
+          "start_after_seconds": 30
+        },
+        {
+          "id": "courier",
+          "title": "Курьер вышел. Кажется, не туда.",
+          "description": "Он отвлёкся на ещё одно очень важное видео.",
+          "emoji": "🚴",
+          "start_after_seconds": 90
+        },
+        {
+          "id": "multiverse",
+          "title": "Заказ застрял в мультивселенной.",
+          "description": "Там сейчас особенно напряжённая логистика.",
+          "emoji": "🌀",
+          "start_after_seconds": 180
+        },
+        {
+          "id": "delivered",
+          "title": "Доставлено прямо в ваше воображение.",
+          "description": "Проверьте карман фантазии, пожалуйста.",
+          "emoji": "🎉",
+          "start_after_seconds": 300
+        }
+      ]
+    }
+  ]
+}

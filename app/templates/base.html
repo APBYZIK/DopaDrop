@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DopaDrop — шуточный магазин необязательных вещей. Без оплаты и доставки.">
+  {% if private_page %}<meta name="robots" content="noindex,nofollow">{% endif %}
+  <title>{% block title %}DopaDrop — купить можно потом{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержимому</a>
+  {% include 'components/header.html' %}
+  <main id="main" class="container">{% block content %}{% endblock %}</main>
+  {% include 'components/footer.html' %}
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="container">Для корзины нужен JavaScript. Чек и текущий статус доступны без него.</p></noscript>
+  <script type="module" src="{{ url_for('static', filename='js/cart.js') }}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

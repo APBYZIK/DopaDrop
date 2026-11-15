@@ -1,0 +1,4 @@
+{% extends 'base.html' %}
+{% block title %}Корзина — DopaDrop{% endblock %}
+{% block content %}<div class="page-heading"><p class="eyebrow">Шаг 01 / приятные намерения</p><h1>Корзина отложенных дел</h1><p>Самое сложное уже позади: вы что-то выбрали.</p></div><div data-cart-view data-editable="true"><p role="status">Собираем ваши намерения…</p></div><div class="checkout-actions"><a class="button" id="checkout-link" href="{{ url_for('pages.checkout') }}" hidden>Оформить понарошку →</a><a href="{{ url_for('pages.index') }}#catalog">Продолжить откладывать</a></div>{% endblock %}
+{% block scripts %}<script type="module" src="{{ url_for('static', filename='js/cart.js') }}"></script>{% endblock %}

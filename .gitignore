@@ -1,0 +1,9 @@
+.venv/
+.venv-verify/
+.env
+instance/
+__pycache__/
+.pytest_cache/
+.idea/
+*.py[cod]
+artifacts/
