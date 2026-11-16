@@ -7,3 +7,8 @@ __pycache__/
 .idea/
 *.py[cod]
 artifacts/
+
+# Local development instructions and progress
+/AGENTS.md
+/CODEX_SPEC_DOPADROP.md
+/PROGRESS.md
